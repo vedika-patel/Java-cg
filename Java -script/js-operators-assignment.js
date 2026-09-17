@@ -44,7 +44,7 @@ let products=bottals*hours;
 console.log("caluculat total producations=",products);
 //Q-3
 let row=7;
-let plants=15;
+let plant=15;
 let totalPlants=row*plants;
 console.log("total numbers of plants=",totalPlants);
 //4.Division
@@ -56,7 +56,7 @@ console.log("number of pencils each student= ",totalpenciles);
 //Q-2
 let kilometrs=360;
 let hour=6;
-let distance=kilometrs/hours;
+let distanc=kilometrs/hours;
 console.log(" distance travelled per hour=",distance,"km");
 //Q-3
 let among=72000;
@@ -65,7 +65,7 @@ let eachDepartment=among/department;
 console.log("amount received by each department=",department);
 //5.Modulus
 // //Q-1
-let students=53;
+let student=53;
 let groups=5;
 let leafstudent=students%groups;
 console.log("the number of students left over=",leafstudent);
@@ -80,7 +80,7 @@ y= x % 2;
 console.log(y," is odd number");
 //Q-4
 let toys=237;
-let box=6;
+let boxS=6;
 let packingBoxs=toys%box;
 console.log("left after toys=",packingBoxs,"toys");
 //Q-5
@@ -95,8 +95,8 @@ let cube=3;
 let volume=length**cube;
 console.log("volume of cube=",volume,"cm^3");
 //Q-2
-let xX =1;
-let yY =2;
+let x =1;
+let y =2;
 let z=x*y**4;
 console.log("the number of bacteria =",z);
 //Q-3
@@ -130,9 +130,9 @@ let piValue=3.14159;
 console.log(piValue);
 //2. Add and Assign
 //Q-1
-let marks=200;
-marks += 35;
-console.log("update total price=",marks,"rs.");
+let marKs=200;
+marKs += 35;
+console.log("update total price=",marKs,"rs.");
 //Q-2
 let accountSaving=5000;
 accountSaving += 1200;
@@ -142,9 +142,9 @@ let  phoneBattery=45;
 phoneBattery += 35;
 console.log("update battery=",phoneBattery,"%");
 //Q-4
-let points=1250;
-points += 375;
-console,log("update points=",points);
+let point=1250;
+point += 375;
+console,log("update points=",point);
 //Q-5
 let books=840;
 books += 160;
@@ -246,3 +246,13 @@ console.log("its volume=",box,"cm^3");
 let size=3;
 size **=2;
 console.log("the total area growth factor =",size,"cm^2");
+//Part c:
+//Q-1
+let passWord=1234;
+passWord == "1234";
+console.log(passWord);
+//Q-2
+let xX=0;
+xX == false;
+console.log(xX);
+
