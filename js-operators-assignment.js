@@ -145,3 +145,104 @@ console.log("update battery=",phoneBattery,"%");
 let points=1250;
 points += 375;
 console,log("update points=",points);
+//Q-5
+let books=840;
+books += 160;
+console.log("update the total number of book=",books);
+//3. Subtract and Assign
+//Q-1
+let liter=1000;
+liter -= 375;
+console.log("update the remaining water=",liter,"liter");
+//Q-2
+let rupee=500;
+rupee -= 180;
+console.log("update the remaining money=",rupee,"rs.");
+//Q-3
+let bettry=90;
+bettry -= 45;
+console.log(" update the battery percentage a=",bettry,"%");
+//Q-4
+let boxEs=2400;
+boxEs -= 950;
+console.log("update the remaining boxes =",boxEs,"boxes");
+//Q-5
+let points=2000;
+points -= 625;
+console.log("update the score =",points,"points");
+//4. Multiply and Assign
+//Q-1
+let town=5000;
+town *= 3;
+console.log("update the population=",town);
+//Q-2
+let units=120;
+units *= 4;
+console.log("update the daily production =",units,"units");
+// //Q-3
+let amount=2000;
+amount *= 2;
+console.log("update the amount=",amount,"rs.");
+Q-4
+let plants=50;
+plants *= 5;
+console.log("update the total plants=",plants);
+//Q-5
+let score=150;
+score *= 3;
+console.log(" update the score =",score);
+//5. Divide and Assign 
+//Q-1
+let meter=1200;
+meter /= 4;
+console.log("update the length of one part =",meter,"meter");
+//Q-2
+let budget=80000;
+budget /= 8;
+console.log(" update the budget per project=",budget);
+//Q-3
+let grms=960;
+grms /= 6;
+console.log(" update the sugar in one packet=",grms,"grams");
+//Q-4
+let distance=450;
+distance /= 5;
+console.log(" update the distance per trip =",distance,"km");
+// //Q-5
+let marks=2500;
+marks /= 10;
+console.log("update the marks per student=",marks,"marks");
+//6.Modulus and Assign
+//Q-1
+let candidats=137;
+candidats %= 10;
+console.log(" the candies left =",candidats);
+//Q-2
+let students=250;
+students %= 7;
+console.log("the students left=",students);
+//Q-3
+let days=1000;
+days %=7;
+console.log("he days left after full weeks =",days); 
+//Q-4
+let chairs=89;
+chairs %= 5;
+console.log("the chairs left=",chairs,"chairs");
+//Q-5
+let runs=365;
+runs %= 30;
+console.log("the months left after full years =",runs);
+//7.Exponentiation and Assign 
+//Q-1
+let side=10;
+side **=2;
+console.log(" its area =",side,"cm^2");
+//Q-2
+let box=4;
+box **= 3;
+console.log("its volume=",box,"cm^3");
+//Q-3
+let size=3;
+size **=2;
+console.log("the total area growth factor =",size,"cm^2");
