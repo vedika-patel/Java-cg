@@ -75,8 +75,8 @@ let boxs=10;
 let unpacked=candidates%boxes;
 console.log("the number of candies left unpacked=",unpacked);
 //Q-3
-let x=9;;
-y= x % 2;
+let xx=9;
+y= xx % 2;
 console.log(y," is odd number");
 //Q-4
 let toys=237;
@@ -96,8 +96,8 @@ let volume=length**cube;
 console.log("volume of cube=",volume,"cm^3");
 //Q-2
 let x =1;
-let y =2;
-let z=x*y**4;
+let yy =2;
+let z=x*yy**4;
 console.log("the number of bacteria =",z);
 //Q-3
 let sieds=9;
@@ -255,4 +255,8 @@ console.log(passWord);
 let xX=0;
 xX == false;
 console.log(xX);
-
+//Q-3
+let vaLue=false;
+vaLue == "";
+console.log(vaLue);
+//Q-4
