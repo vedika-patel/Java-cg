@@ -377,5 +377,342 @@ if (age >= 21 && age <= 30) {
 } else {
   console.log("Not Eligible - Age must be between 21 and 30");
 }
+Q-10
+7,8,9,10 are not under stand;
+//[E]switch Statement – 10 Questions
+let month = 2; // Change this value to test with different month numbers (1–12)
+
+switch (month) {
+  case 1:  // January
+  case 3:  // March
+  case 5:  // May
+  case 7:  // July
+  case 8:  // August
+  case 10: // October
+  case 12: // December
+    console.log("31 days");
+    break;
+
+  case 4:  // April
+  case 6:  // June
+  case 9:  // September
+  case 11: // November
+    console.log("30 days");
+    break;
+
+  case 2:  // February
+    console.log("28 days");
+    break;
+
+  default:
+    console.log("Invalid month number! Please enter a number between 1 and 12.");
+}
+//Q-2
+let char = 'a'; // Change this character to test other inputs
+
+// Convert to lower case to handle both uppercase and lowercase inputs easily
+switch (char.toLowerCase()) {
+  case 'a':
+  case 'e':
+  case 'i':
+  case 'o':
+  case 'u':
+    console.log(`${char} is a Vowel.`);
+    break;
+
+  default:
+    // Check if it's an alphabetic character
+    if (char.toLowerCase() !== char.toUpperCase()) {
+      console.log(`${char} is a Consonant.`);
+    } else {
+      console.log("Invalid input! Please enter an alphabetic character.");
+    }
+}
+//Q-3
+let number=4;
+switch(number){
+    case 1:
+        console.log("Winter");
+        break;
+     case 2:
+        console.log("Winter");
+        break;    
+    case 3:
+        console.log("Summer");
+        break;
+    case 4:
+        console.log("Summer");
+        break;    
+    default:
+        console.log("moonsoon")        
+
+}
+//Q-4
+let marks=33;
+switch(true){
+    case marks>=75:
+        console.log("distiction");
+        break;
+    case marks>=60:
+        console.log("1st class");
+        break;
+    case marks>=50:
+        console.log("2nd class");
+        break;
+    case marks>=35:
+        console.log("3rd class");
+        break;
+    default:
+        console.log("falied");    
+}
+//Q-5
+let role = "admin";   // Options: "admin", "user"
+let action = "create"; // Options for admin: "create", "edit", "delete"
+
+switch (role.toLowerCase()) {
+  case "admin":
+    switch (action.toLowerCase()) {
+      case "create":
+        console.log("Admin Action: Creating new record.");
+        break;
+      case "edit":
+        console.log("Admin Action: Editing existing record.");
+        break;
+      case "delete":
+        console.log("Admin Action: Deleting record.");
+        break;
+      default:
+        console.log("Invalid admin action!");
+    }
+    break;
+
+  case "user":
+    console.log("Limited Access");
+    break;
+
+  default:
+    console.log("Invalid role!");
+}
+//Q-6
+let fruit = "mango";
+
+switch (fruit) {
+  case "apple":
+    console.log("Apple is red");
+    break;
+  case "mango":
+    console.log("Mango is yellow");
+    break;
+  case "banana":
+    console.log("Banana is yellow");
+    break;
+  default:
+    console.log("Unknown fruit");
+}
+//Q-7
+let value = "0"; // Test values: 0, "0", false, null, undefined
+
+switch (value) {
+  case 0:
+    console.log('Identified as: Number (0)');
+    break;
+  case "0":
+    console.log('Identified as: String ("0")');
+    break;
+  case false:
+    console.log('Identified as: Boolean (false)');
+    break;
+  case null:
+    console.log('Identified as: null');
+    break;
+  case undefined:
+    console.log('Identified as: undefined');
+    break;
+  default:
+    console.log('Unknown value');
+}
+//Q-8
+let operation="-";
+switch(operation){
+    case "+":
+        console.log("Addication");
+        break;
+    case "-":
+        console.log("Subtriction");
+        break; 
+    case "*":
+        console.log("multiplication");
+        break; 
+    case "/":
+        console.log("division");
+        break; 
+    case "%":
+        console.log("moduls");
+        break;  
+    case "**":
+        console.log("exponestion");
+        break; 
+    default:
+        console.log("Invalid opretions")                  
+}
+//Q-9
+let day = 15; // Change this value to test different days of the month (1–31)
+
+switch (true) {
+  case day >= 1 && day <= 10:
+    console.log("Beginning of the month");
+    break;
+
+  case day >= 11 && day <= 20:
+    console.log("Middle of the month");
+    break;
+
+  case day >= 21 && day <= 31:
+    console.log("End of the month");
+    break;
+
+  default:
+    console.log("Invalid date! Please enter a day number between 1 and 31.");
+}
 //Q-10
-// 7,8,9,10 are not under stand;
+let category = "veg";  // Options: "veg", "nonveg"
+let item = "paneer";   // Options for Veg: "paneer", "biryani" | Non-Veg: "chicken", "fish"
+let size = "full";     // Options: "half", "full"
+
+let price = 0;
+let itemName = "";
+let isValid = true;
+
+switch (category.toLowerCase()) {
+  case "veg":
+    switch (item.toLowerCase()) {
+      case "paneer":
+        itemName = "Paneer Butter Masala";
+        switch (size.toLowerCase()) {
+          case "half":
+            price = 120;
+            break;
+          case "full":
+            price = 200;
+            break;
+          default:
+            isValid = false;
+            console.log("Invalid size! Choose 'half' or 'full'.");
+        }
+        break;
+
+      case "biryani":
+        itemName = "Veg Biryani";
+        switch (size.toLowerCase()) {
+          case "half":
+            price = 100;
+            break;
+          case "full":
+            price = 180;
+            break;
+          default:
+            isValid = false;
+            console.log("Invalid size! Choose 'half' or 'full'.");
+        }
+        break;
+
+      default:
+        isValid = false;
+        console.log("Invalid Veg item! Choose 'paneer' or 'biryani'.");
+    }
+    break;
+
+  case "nonveg":
+    switch (item.toLowerCase()) {
+      case "chicken":
+        itemName = "Chicken Curry";
+        switch (size.toLowerCase()) {
+          case "half":
+            price = 150;
+            break;
+          case "full":
+            price = 260;
+            break;
+          default:
+            isValid = false;
+            console.log("Invalid size! Choose 'half' or 'full'.");
+        }
+        break;
+
+      case "fish":
+        itemName = "Fish Fry";
+        switch (size.toLowerCase()) {
+          case "half":
+            price = 180;
+            break;
+          case "full":
+            price = 320;
+            break;
+          default:
+            isValid = false;
+            console.log("Invalid size! Choose 'half' or 'full'.");
+        }
+        break;
+
+      default:
+        isValid = false;
+        console.log("Invalid Non-Veg item! Choose 'chicken' or 'fish'.");
+    }
+    break;
+
+  default:
+    isValid = false;
+    console.log("Invalid category! Choose 'veg' or 'nonveg'.");
+}
+
+if (isValid) {
+  console.log("--- ORDER SUMMARY ---");
+  console.log(`Category : ${category.toUpperCase()}`);
+  console.log(`Item     : ${itemName}`);
+  console.log(`Size     : ${size.toUpperCase()}`);
+  console.log(`Price    : ₹${price}`);
+}
+//F] Ternary Operator Questions
+//Q-1
+let num=10;
+let result = num % 7 === 0 ? "divisible by 7" : "not divisible by 7";
+console.log(result);
+//Q-2
+let temperature = 50;
+let weather = temperature > 30 ? "Hot day" : "pleasant day";
+console.log(weather);
+//Q-3
+let age=17;
+let eligibility =age<13 ? "Child" : age > 13 && age <= 19 ? "Teenager" : "Adult";
+console.log(eligibility);
+//Q-4
+let string = "hello";
+let message = string === "" ? "Empty string" : "string has content";
+console.log(message);
+//Q-5
+let a=10;
+let b=20;
+let c=30;
+let largest = a>b && a>c ? a : b>c ? b : c;
+console.log("Largest number is: " + largest);
+//Q-6
+let marks=49;
+let grade = marks >= 75 ? "Distinction" : marks >= 60 ? "First class" : marks >= 50 ? "Second class" : marks >= 49 ? "pass" : "fail";
+console.log("Grade: " + grade);
+//Q-7
+let num = 2;
+let numberType = num > 0 ? (num % 2 === 0 ? "Positive Even" : "Positive Odd") : (num < 0 ? (num % 2 === 0 ? "Negative Even" : "Negative Odd") : "Zero");
+console.log(numberType);
+//Q-8
+let year = 2024;
+let leapYearCheck = year % 4 === 0 ? (year % 100 === 0 ? (year % 400 === 0 ? "Leap Year" : "Not a Leap Year") : "Leap Year") : "Not a Leap Year";
+console.log(leapYearCheck);
+//Q-9
+//not under stand
+//Q-10
+let total=2000;
+let discount = total > 1000 ? (total * 0.10) : 0;
+let finalAmount = total - discount;
+console.log("Total Amount: ₹" + total);
+console.log("Discount: ₹" + discount);
+console.log("Final Amount to Pay: ₹" + finalAmount);
