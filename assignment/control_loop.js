@@ -126,11 +126,26 @@
 //     }
 //     console.log(i);
 // }
-
-
-
-
-
-
-
-
+// //Part I-d] Nested For Loop Question
+////Q-1
+// let n = 4; // Total number of rows
+// let currentNumber = 1;
+// for (let i = 1; i <= n; i++) {
+//     let rowValues = "";
+//     for (let j = 1; j <= i; j++) {
+//         rowValues += currentNumber + " ";
+//         currentNumber++;
+//     }
+//     console.log(rowValues.trim());
+// }
+////Q-2
+// let n=5;
+// for (let i = 1; i <= n; i++){
+// let row = "";
+// for (let j = 1; j <= i; j++){
+//     let currentLetter = String.fromCharCode(65 + (j - 1));
+//     row += currentLetter + " ";
+// }
+// console.log(row.trim());
+// }
+////Q-3
