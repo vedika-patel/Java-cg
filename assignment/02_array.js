@@ -8,19 +8,19 @@ const arr=[]
 arr.push(5,10,15)
 console.log(arr);
 ////Q-3
-const arr=["Pen", "Book"]
+const arra=["Pen", "Book"]
 arr.push("Eraser","Scale")
-console.log(arr);
+console.log(arra);
 //Q-4
 //ans=because push add the items in arr
 //Q-5
 //ans=no change the main arr
-2. pop()
+//2. pop()
 //Q-1
-const arr=[1,2,3,4,5]
+const arra=[1,2,3,4,5]
 arr.pop()
 arr.pop()
-console.log(arr);
+console.log(arra);
 Q-2
 const array=["Red", "Blue", "Green"]
 array.pop()
