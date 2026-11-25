@@ -1,4 +1,4 @@
-1. push()
+// //1. push()
 //Q-1
 const arr=["red","blue","green"]
 arr.push("brown","white")
@@ -31,9 +31,9 @@ nums.pop()
 console.log("nums =",nums);
 //Q-4
 //ans=pop return the array last items or element
-//Q-5
-ans="Underflow" error or exception, JavaScript handles this gracefully by simply returning undefined because there are no elements available to remove.
-//3. unshift()
+// //Q-5
+//// ans="Underflow" error or exception, JavaScript handles this gracefully by simply returning undefined because there are no elements available to remove.
+// //3. unshift()
 //Q-1
 const leng=["CSS", "JavaScript"]
 leng.unshift("HTML");
@@ -79,7 +79,63 @@ console.log(arr.indexOf("B"));
 const student=["vedika","mansi","javi","suhani"]
 console.log(student.indexOf("vedika"));
 console.log(student.indexOf("suhani"));
-//Q-4
-//ans=found the indexof element
+Q-4
+// //ans=found the indexof element
+Q-5
+// ans=It returns the index of the first occurrence of the element (scanning from left to right, starting at index 0).
+6. lastIndexOf()
+//Q-1
+let arr=[49,90,100]
+console.log(arr.lastIndexOf(100));
+//Q-2
+let arr=["X", "Y", "Z", "Y", "X"]
+console.log(arr.lastIndexOf("Y"));
+console.log(arr.lastIndexOf("X"));
+//Q-3
+const arr=[1,2,3,4,5,3]
+console.log(arr.lastIndexOf(3));
+/Q-4
+const arr=[1,2,3,4,3,1]
+console.log(arr.lastIndexOf(3));
+console.log(arr.indexOf(2));
 //Q-5
-//ans=It returns the index of the first occurrence of the element (scanning from left to right, starting at index 0).
+let numbers = [10, 20, 30, 20, 50];
+console.log(numbers.indexOf(20));     
+console.log(numbers.lastIndexOf(20)); 
+//7. includes()
+//Q-1
+const arr=["vedika","mahi","shloka","hasti"]
+console.log(arr.includes("mahi"));
+console.log(arr.includes("shloka"));
+console.log(arr.includes("hasti"));
+console.log(arr.includes("vedika"));
+//Q-2
+const arr=[11, 22, 33, 44]
+console.log(arr.includes(33));
+console.log(arr.includes(35));
+//Q-3
+const subject=["match","science","english"]
+console.log(subject.includes("english"));
+console.log(subject.includes("gujrati"));
+//Q-4
+///ANS=includes()return the boolean value
+//Q-5
+const arr=[2,"vedika","figma",4]
+console.log(arr.includes(4));
+console.log(arr.includes("figma")); 
+//8. reverse()
+//Q-1
+const arr=[1,2,3,4,5]
+console.log(arr.reverse());
+//Q-2
+const arr=["A", "B", "C", "D"]
+console.log(arr.reverse());
+//Q-3
+const arr=["hmt","adm","pune","mumbai"]
+console.log(arr.reverse());
+//Q-4
+const color=["red","blue","green","orange"]
+console.log(color.reverse());
+//Q-5
+const arr=[90,"blue"]
+console.log(arr.reverse());
