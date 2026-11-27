@@ -139,3 +139,62 @@ console.log(color.reverse());
 //Q-5
 const arr=[90,"blue"]
 console.log(arr.reverse());
+//9. sort() – Basic Version
+//Q-1
+const arr=["vedika","shloka","hasti","mahi","dharmi"]
+arr.sort();
+console.log(arr);
+//Q-2
+const arr=["Dog", "Cat", "Elephant", "Ant"]
+arr.sort()
+console.log(arr);
+//Q-3
+const num=[40, 100, 5, 25]
+num.sort()
+console.log(num);//[ 100, 25, 40, 5 ]
+/Q-4
+const num=[40, 100, 5, 25]
+num.sort()
+console.log(num);
+//Q-5
+const arr=["html","css","python","js"]
+console.log(arr.sort());
+//10. join()
+//Q-1
+const arr=["html","js","python","css"]
+const u=arr.join(" | ");
+console.log(u);
+//Q-2
+const arr=["HTML", "CSS", "JavaScript"]
+const update=arr.join("-");
+console.log(update);
+//Q-3
+const sub=["science","matsh","english"]
+const up=sub.join("/");
+console.log(up);
+//Q-4
+let arr=[2,2,3,4];
+const u=arr.join("-");
+console.log(u)
+//Q-5
+const sub=["science","matsh","english"]
+const up=sub.join("/");
+console.log(up);
+//11. concat()
+//Q-1
+const arr1=[1,2];
+const arr2=[3,4];
+const result=arr1.concat(arr2);
+console.log(result);
+//Q-2
+const arr1 = [1, 2]
+const arr2 = [3, 4]
+const result=arr1.concat(arr2);
+console.log(result)
+//Q-3
+const arr1 = [1, 2]
+const arr2 = [3, 4]
+const arr3 =  [5,6]
+const result=arr1.concat(arr2,arr3);
+console.log(result)
+//Q-4
